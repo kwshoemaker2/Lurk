@@ -1,0 +1,15 @@
+* Create a Command class (or even a struct) for InputConverter instead of having three dictionaries
+
+* Make the ClientSocket private, since no one should need to access it
+
+* Have the closing of the ClientSocket be handled by the Globals class
+
+* End the game upon receiving NOTIF Death
+
+* Redesign some of the interaction between the GameWindow and LurkGame classes
+
+* Redesign how the user logs in to the server and creates a new character
+
+* Have the entire process for receiving data be handled by the Globals class (instead of being in two function calls in LurkGame.ReceiveMessages)
+
+* Server seems to be sending a message when a new player enters the room that doesn't have a header. Change the DataParser to handle this case
