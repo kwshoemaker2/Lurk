@@ -6,3 +6,5 @@ Implements the client side of a multiplayer text-based game. More details about 
 The second project will involve creating a server to service multiple Lurk clients that also implements the Lurk protocol
 
 Game can currently be played by connecting to isoptera.lcsc.edu on port 5000
+
+The current version of the client is buggy and will be updated at a later time
