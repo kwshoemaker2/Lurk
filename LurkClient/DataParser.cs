@@ -26,7 +26,7 @@ namespace LurkClient
         
         /// <summary>
         /// The parsed blocks of data. Each block has a protocol header
-        /// and then data associated with that header
+        /// and data associated with that header
         /// </summary>
         private List<List<string>> blocks = new List<List<string>>();
 
