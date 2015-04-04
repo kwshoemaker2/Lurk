@@ -1,8 +1,7 @@
 # Lurk
 Client application developed for my Spring 2015 Computer Networking class
 
-Implements the client side of a multiplayer text-based game. More details about the protocol used are found in the 
-Lurk Protocol file
+Implements the client side of a multiplayer text-based game. More details about the protocol used are found <a href="http://isoptera.lcsc.edu/~seth/cs435/lurk_protocol.html">here</a>
 
 The second project will involve creating a server to service multiple Lurk clients that also implements the Lurk protocol
 
